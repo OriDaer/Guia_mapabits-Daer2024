@@ -1,6 +1,6 @@
 from PIL import Image
-ruta=input('Ingrese ruta de la imagen ')
-angulo=int(input('Imgrese angulo para rotacion de imagen '))
+ruta=input('Ingrese ruta de la imagen: ')
+angulo=int(input('Ingrese angulo para rotacion de imagen: '))
 img=Image.open(f'{ruta}')
 nombreArchivOrig= ruta.split('\\')[-1]
 extensionOrig=img.format.lower()
